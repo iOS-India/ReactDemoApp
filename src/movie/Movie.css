@@ -1,0 +1,14 @@
+.kaalo {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: repeat(3, 1fr); */
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.show {
+  background-color: khaki;
+  width: 100vw;
+  height: 100vh;
+}

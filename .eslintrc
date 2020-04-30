@@ -1,0 +1,13 @@
+{
+  "plugins": ["import", "react", "jsx-a11y", "disable"],
+  "processor": "disable/disable",
+  "overrides": [
+    {
+      "files": ["tests/**/*.test.js"],
+      "settings": {
+        "disable/disableAllExcept": true,
+        "disable/plugins": ["react"]
+      }
+    }
+  ]
+}
